@@ -1,0 +1,42 @@
+body {
+	background-color: #F6F6F6;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #222222;
+
+	border-bottom-color: #222222;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+	padding: 20px;
+	font-family: Arial;
+}
+
+a {
+	font-weight: bold;
+	color: #05080C;
+	text-align: center;
+}
+
+nav {
+	width: 200px;
+	margin: auto;
+}
+
+.active {
+	text-decoration: none;
+	font-style: italic;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+img {
+	border-width: 1px;
+	border-color: #222222;
+	border-style: solid;
+}
