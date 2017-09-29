@@ -1,0 +1,138 @@
+h2 {
+	color: black;
+	font-size: 24px;
+}
+
+#twocolumn {
+	margin-bottom: 50px;
+}
+
+#twocolumn header,
+#twocolumn footer,
+#twocolumn aside,
+#twocolumn section {
+	background-color: gray;
+	min-height: 100px;
+	/*border: 1px solid black;*/
+
+}
+
+#twocolumn header {
+	margin-bottom: 15px;
+}
+
+#twocolumn footer {
+	margin-top: 15px;
+	clear: both;
+}
+
+#twocolumn section {
+	float: left;
+	width: 74%;
+	margin-right: 1%;
+}
+
+#twocolumn aside {
+	width: 25%;
+	float: left;
+}
+
+#twocolumn .floats {
+	height: 1px;
+	min-height: 100px;
+}
+
+#twocolumn2 header,
+#twocolumn2 footer,
+#twocolumn2 aside,
+#twocolumn2 section {
+	background-color: red;
+	min-height: 100px;
+	/*border: 1px solid black;*/
+}
+
+#twocolumn2 header {
+	margin-bottom: 15px;
+}
+
+#twocolumn2 footer {
+	margin-top: 15px;
+;
+}
+
+#twocolumn2 aside,
+#twocolumn2 section {
+	display: inline-block;
+}
+
+#twocolumn2 section {
+	width: 73%;
+	margin-right: 1%;
+}
+
+#twocolumn2 aside {
+	width: 25%;
+}
+
+#twocolumn3 header,
+#twocolumn3 footer,
+#twocolumn3 aside,
+#twocolumn3 section {
+	background-color: green;
+	min-height: 100px;
+}
+
+#twocolumn3 header {
+	margin-bottom: 15px;
+	padding-top: 15px;
+}
+
+#twocolumn3 footer {
+	margin-top: 15px;
+}
+
+.multicolumn {
+	column-count: 3;
+}
+
+/*----------FOR FLEXBOX SECTION--------*/
+
+#twocolumn4 header,
+#twocolumn4 footer,
+#twocolumn4 aside,
+#twocolumn4 section {
+	background-color:  blue;
+	min-height: 100px;
+
+}
+
+#twocolumn4 header {
+	margin-bottom: 15px;
+	padding-top: 15px;
+}
+
+#twocolumn4 footer {
+	margin-top: 15px;
+}
+
+
+#twocolumn4 .flexbox {
+	display: flex;
+}
+
+#twocolumn4 section {
+	width: 73%;
+	margin-right: 1%;
+}
+
+#twocolumn4 aside {
+	width: 25%;
+}
+
+
+
+
+
+
+
+
