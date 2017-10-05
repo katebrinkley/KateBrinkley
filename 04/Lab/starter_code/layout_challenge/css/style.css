@@ -3,6 +3,12 @@ h2 {
 	font-size: 24px;
 }
 
+/*THIS IS FOR FLOAT///////*/
+
+* {
+	box-sizing: border-box;
+}
+
 #twocolumn {
 	margin-bottom: 50px;
 }
@@ -13,7 +19,7 @@ h2 {
 #twocolumn section {
 	background-color: gray;
 	min-height: 100px;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 
 }
 
@@ -34,12 +40,13 @@ h2 {
 
 #twocolumn aside {
 	width: 25%;
-	float: left;
+	margin-left: 75%;
 }
 
 #twocolumn .floats {
 	height: 1px;
 	min-height: 100px;
+	background-color: red;
 }
 
 #twocolumn2 header,
