@@ -1,0 +1,198 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+/******************************************
+/* HEADER
+/*******************************************/
+
+header {
+  background-color: #033048;
+  min-height: 70px;
+}
+
+header h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  float: left;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+header nav {
+  color: #f9e42e;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  /*float: left;
+  min-width: 30px;
+  min-height: 20px;*/
+  list-style: none;
+  margin-right: 15px;
+  padding: 0;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+
+/******************************************
+/* MIDDLE
+/*******************************************/
+
+#middleWrapper {
+  background-color: #f0efef;
+  min-height: 950px;
+}
+
+
+section#mainColumn {
+  width: 700px;
+  float: left;
+}
+
+#mainColumn h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #033048;
+}
+
+#mainColumn a {
+  float: left;
+  padding-right: 20px;
+}
+
+aside#sidebar{
+  width: 240px;
+  float: right;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+/******************************************
+/* SIGNUP
+/*******************************************/
+
+.signup {
+  background-color: #f9e42e;
+  margin-top: 50px;
+  min-height: 100px;
+  display: flex;
+}
+
+.signup button {
+  background-color: #033048;
+  color: white;
+   min-height: 50px;
+  border: black 1px solid;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  max-width: 200px;
+  margin: auto;
+  display:block;
+  float: center;
+  align-self: center;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+
+footer {
+  background-color: black;
+  color: white;
+  min-height: 200px;
+  text-align: center;
+  float: none;
+}
+
+#footer h1 {
+  color: #f9e42e;
+  padding-top: 20px;
+  margin-bottom: 10px
+}
+
+#footer p {
+  font-size: 10px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
