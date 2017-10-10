@@ -47,7 +47,7 @@ Developer @GA in NYC
 
 body {
      color: #000;
-     font-size: 12px;
+     /*font-size: 12px;*/
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
@@ -64,26 +64,165 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-
+  display: flex;
 }
 
 * {
   font-family: 'Open Sans', sans-serif;
 }
 
+/******************************************
+/* HEADER
+/*******************************************/
+
 header {
   min-height: 500px;
-
 }
 
 header h1 {
   font-size: 24px;
-  font-weight: extra bold;
+  font-weight: 800;
+  margin-left: 40px;
+  color: white;
+  margin-top: 15px;
 }
+
+#intro {
+  height: 10em;
+  display: flex;
+  max-height: 300px;
+  flex-direction: column;
+}
+
+#intro h2 {
+  align-self: center;
+  font-size: 24px;
+  font-weight: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+/*header*/ #intro button {
+  background-color: #f9e42e;
+  min-height: 50px;
+  border: black 1px solid;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  max-width: 200px;
+  margin:auto;
+  display:block;
+}
+
+/******************************************
+/* BENEFITS
+/*******************************************/
+.Benefits {
+  background-color: #f0efef;
+  min-height: 200px;
+}
+
+.Benefits h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.Benefits p {
+  font-weight: 300;
+  font-size: 13px;
+  margin-left: 20px;
+  line-height: 23px;
+}
+
+.Benefits ul {
+  font-weight: 300;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+/******************************************
+/* QUOTE
+/*******************************************/
+.quote {
+}
+
+blockquote {
+  color: white;
+  margin: auto;
+  display: block;
+  text-align: center;
+  width: 50%;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 30px;
+}
+
+.quote p {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/******************************************
+/* SIGNUP
+/*******************************************/
+
+.signup {
+  background-color: #f9e42e;
+  margin-top: 50px;
+  min-height: 100px;
+  display: flex;
+}
+
+.signup button {
+  background-color: #033048;
+  color: white;
+   min-height: 50px;
+  border: black 1px solid;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  max-width: 200px;
+  margin: auto;
+  display:block;
+  float: center;
+  align-self: center;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
 
 footer {
-
+  background-color: black;
+  color: white;
+  min-height: 200px;
+  text-align: center;
 }
+
+#footer h1 {
+  color: #f9e42e;
+  padding-top: 20px;
+  margin-bottom: 10px
+}
+
+#footer p {
+  font-size: 10px;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
