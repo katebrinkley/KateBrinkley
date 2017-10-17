@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container {
+	margin: auto;
+	max-width: 960px;
+	width: 100%;
+}
+
+header {
+	background-color: #033048;
+}
+
+header h1 {
+	color: white;
+}
+
+header nav {
+	display: inline;
+}
+
+#content {
+	padding: 30px 50px;
+}
+
+#blog,
+#sidebar {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#blog {
+	width: 60%;
+}
+
+#sidebar {
+	width: 39%;
+}
