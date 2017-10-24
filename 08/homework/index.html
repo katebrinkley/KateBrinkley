@@ -1,94 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-<meta name="description" content="Your description goes here">
-    	<meta name="keywords" content="one, two, three">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
 
-		<title>Blog - Relaxr</title>
- 
+		<title>Weather Background</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,800" rel="stylesheet">
-
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	</head>
 	<body>
-
-	<div id="container">
-
-	<header id="header">
-	
-				<div id="menu">
-				<h1>Relaxr</h1>
+		<header>
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
 				<nav>
 					<ul>
-						<li>About</li>
-						<li>FAQ</li>
-						<li>Team</li>
-						<li>Contact Us</li>
-						<li>Blog</li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Blog</a></li>
 					</ul>
 				</nav>
 			</div>
-			</header>
+		</header>
+		<section id="main">
+			<div class="container">
+				<section id="posts">
+					<article class="post">
+						<h2><a href="#">How I implemented Relaxr in 2 weeks and changed my life.</a></h2>
+						<img src="images/blog_photo1.jpg" alt="Crew Meet">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
 
-			<section id ="content">
-			<section id="blog">
-				<article>
-					<h2>
-						How I implemented Relaxr in 2 weeks and changed my life.
-						</h2>
-						<img src="https://raw.githubusercontent.com/WyleshaRachell/GA-FEWD/master/Week_03_Layout/Assignment/starter_code/images/blog_photo1.jpg?token=AemQOTi3CygxqMvE8SNuFALzEsQQq3M8ks5Z5khswA%3D%3D" alt="Relaxr activity">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis facilisis ipsum in tincidunt. Fusce fringilla non turpis id feugiat. Ut sed lorem eget lorem semper pharetra a in mi. Maecenas orci mauris, pulvinar quis enim eget, eleifend fermentum ante. Nulla ac sollicitudin mauris. Mauris et quam cursus, dignissim sapien venenatis, elementum ante. Sed nec urna efficitur, volutpat lorem non, imperdiet justo. Etiam sollicitudin eleifend vulputate. Maecenas venenatis sapien non magna consectetur imperdiet. Morbi mattis posuere pharetra. Nam quis nisl diam. Morbi quis nisl vitae eros consectetur sodales vitae at neque.</p>
+						<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
+						<p class="readmore"><a href="#">Read more &gt;</a></p>
+						<p class="readless hide"><a href="#">Read less &gt;</a></p>
+					</article>
+					<article class="post">
+						<h2><a href="#">I traveled across the globe thanks to Relaxr’s Excel auomation</a></h2>
+						<img src="images/blog_photo2.jpg" alt="Canoes">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
 
-						<a href="">Read more</a>
-					<hr>
-					<h2>
-						How I implemented Relaxr in 2 weeks and changed my life.
-						</h2>
-						<img src="https://raw.githubusercontent.com/WyleshaRachell/GA-FEWD/master/Week_03_Layout/Assignment/starter_code/images/blog_photo1.jpg?token=AemQOTi3CygxqMvE8SNuFALzEsQQq3M8ks5Z5khswA%3D%3D" alt="Relaxr activity">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis facilisis ipsum in tincidunt. Fusce fringilla non turpis id feugiat. Ut sed lorem eget lorem semper pharetra a in mi. Maecenas orci mauris, pulvinar quis enim eget, eleifend fermentum ante. Nulla ac sollicitudin mauris. Mauris et quam cursus, dignissim sapien venenatis, elementum ante. Sed nec urna efficitur, volutpat lorem non, imperdiet justo. Etiam sollicitudin eleifend vulputate. Maecenas venenatis sapien non magna consectetur imperdiet. Morbi mattis posuere pharetra. Nam quis nisl diam. Morbi quis nisl vitae eros consectetur sodales vitae at neque.</p>
-
-						<a href="">Read more</a>
-					<hr>
-				</article>
-			</section>
-
-				<aside id="sidebar">
-						<h2>Categories</h2>
-						<ul>
-							<li>Success stories</li>
-							<li>Stats</li>
-							<li>How tos</li>
-							<li>Best of</li>
-							<li>Business tips</li>
-						</ul>
-						<h2>About Relaxr</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						<a href="">Learn more</a>
-
-						<img src="https://raw.githubusercontent.com/WyleshaRachell/GA-FEWD/master/Week_03_Layout/Assignment/starter_code/images/ad-unit.png?token=AemQOWa2Vk3kGFxJj5IIB-01RWA67dr-ks5Z5l3uwA%3D%3D" alt="Ad Unit">
-			
+					</article>
+				</section><!--
+			--><aside id="sidebar">
+					<h3>Categories</h3>
+					<ul>
+						<li><a href="#">Success stories</a></li>
+						<li><a href="#">Stats</a></li>
+						<li><a href="#">How tos</a></li>
+						<li><a href="#">Best of</a></li>
+						<li><a href="#">Business tips</a></li>
+					</ul>
+					<h3>About Relaxr</h3>
+					<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br>
+					<a href="#" class="learnmore">Learn More</a> <span class="hide" id="learnmoretext">Here is some more text about this fun thing!</p>
+					<img src="images/ad-unit.png" alt="Ad Unit">
 				</aside>
-
-				<div class="signup">
-		<button>Sign Up Now!</button>
-		</div>
-
-
-			<footer>
-				<div id="footer">
-				<h1>Relaxr</h1>
-				<a href=""></a>
-				<a href=""></a>
-				<p>Copyright 2015. Relaxr.</p>
 			</div>
-			</footer>
+		</section>
 
+		<aside id="bottom-cta">
+			<a class="button blue" href="#">Sign Up Now!</a>
+		</aside>
+		<footer>
+			<h4 class="logo">Relaxr</h4>
 
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
 
-			
-		</div><!-- #container -->
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+		</footer>
+
+		<script src="js/index.js"></script>
 	</body>
 </html>
