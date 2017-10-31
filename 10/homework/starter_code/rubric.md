@@ -10,9 +10,9 @@ JavaScript is powerful: we're able to take user interaction and information and 
 
 Student: Kate Brinkley
 
-Project URL: https://github.com/katebrinkley/tree/master/KateBrinkley/10/homework/starter_code 
+Project URL: https://github.com/katebrinkley/KateBrinkley/tree/master/10/homework/starter_code
 
-|    |    |   
+|                                                                                                                               |                                |                        |                          |
 |-------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------------------|--------------------------|
 | Technical Requirements                                                                                                        | Does Not Meet Expectations (0) | Meets Expectations (1) | Exceeds Expectations (2) |
 | Call ```$.val()``` on inputs to get the string value of your user's input|  X  |    |    |
@@ -29,4 +29,4 @@ Project URL: https://github.com/katebrinkley/tree/master/KateBrinkley/10/homewor
 | If a user submits "Sydney" or "SYD" make the background of the page sydney.jpg|   X |    |    |
 | **Bonus:** Use class to switch out the background images|    |    |    |
 | **Bonus:** Wrote psuedo code in the js file|    |    |  X  |
-| TOTAL: __9__ /24                                                                                                              |                                |                        |                          |
+| TOTAL: ___9___ /24                                                                                                              |                                |                        |                          |
