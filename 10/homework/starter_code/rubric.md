@@ -10,8 +10,9 @@ JavaScript is powerful: we're able to take user interaction and information and 
 
 Student: Kate Brinkley
 
-Project URL: https://github.com/katebrinkley/tree/master/KateBrinkley/10/homework/starter_code
-|                                                                                                                               |                                |                        |                          |
+Project URL: https://github.com/katebrinkley/tree/master/KateBrinkley/10/homework/starter_code 
+
+|    |    |   
 |-------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------------------|--------------------------|
 | Technical Requirements                                                                                                        | Does Not Meet Expectations (0) | Meets Expectations (1) | Exceeds Expectations (2) |
 | Call ```$.val()``` on inputs to get the string value of your user's input|  X  |    |    |
