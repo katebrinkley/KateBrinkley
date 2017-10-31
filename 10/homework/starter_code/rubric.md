@@ -10,8 +10,7 @@ JavaScript is powerful: we're able to take user interaction and information and 
 
 Student: Kate Brinkley
 
-Project URL: https://github.com/katebrinkley/
-
+Project URL: https://github.com/katebrinkley/tree/master/KateBrinkley/10/homework/starter_code
 |                                                                                                                               |                                |                        |                          |
 |-------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------------------|--------------------------|
 | Technical Requirements                                                                                                        | Does Not Meet Expectations (0) | Meets Expectations (1) | Exceeds Expectations (2) |
@@ -21,7 +20,7 @@ Project URL: https://github.com/katebrinkley/
 | Create ```if / else if / else``` conditionals to control the flow of your application|    |  X  |    |
 | Prevent a form submission using the ```event.preventDefault()``` function|  X  |    |    |
 | Use the ```$.ready()``` handler to delay your code from executing until all DOM assets have been loaded|    |    |  X  |
-| Use the ```||``` operator in your conditionals to allow for multiple string values to execute ```if/else if``` statement code|  X  |    |    |
+| Use the ```OR``` operator in your conditionals to allow for multiple string values to execute ```if/else if``` statement code|  X  |    |    |
 | If a user submits "New York" or "New York City" or "NYC" make the background of the page nyc.jpg|  X  |    |    |
 | If a user submits "San Francisco" or "SF" or "Bay Area" make the background of the page sf.jpg|  X  |    |    |
 | If a user submits "Los Angeles" or "LA" or "LAX" make the background of the page la.jpg| X   |    |    |
