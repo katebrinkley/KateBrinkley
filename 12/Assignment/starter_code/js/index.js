@@ -8,7 +8,12 @@ var cityOptions = [
 	"SYD"
 ];
 
-var cityType = "cityTypeValue"
+$(cityOptions).each(function(i, city) {
+	$('#city-type').append("option value='+city+'">'+city+"</option>'
+		);
+});
+
+/*var cityType = "cityTypeValue"
 
 /*Create a loop to display options*/
 
@@ -20,9 +25,9 @@ for (var i = 0; i < cityOptions.length; i++) {
 
 /* If city-type equals NewYork, NYC or New York City, then change the background*/
 
-if(cityTypeValue === "NYC") {
-	$('body').addClass('.nyc');
-}
+/*if(cityTypeValue === "NYC") {
+	$('body').addClass('.nyc');*/
+
 
 /*Stop form from submitting*/
 
