@@ -1,0 +1,147 @@
+
+* {
+	font-family: 'Muli', sans-serif;
+}
+
+header {
+	overflow: hidden;
+	background-color: #2F4F4F;
+}
+
+nav {
+	height: 50px;
+	background-color: #5F9EA0;
+	display: none;
+}
+
+nav ul li {
+	float: left;
+	height: 50px;
+	width: 100%;
+	max-width: 100px;
+	margin-right: 5px;
+}
+
+ul {
+	list-style-type: none;
+	position: relative;
+}
+
+.hamburgerMenu {
+	border: 1px solid white;
+	float: right;
+	width: 50px;
+	height: auto;
+	padding: 5px;
+	margin: 10px;
+}
+
+hr {
+	color: white;
+}
+
+.slider {
+	background-image: url(https://i0.wp.com/www.theweavingloom.com/wp-content/uploads/2015/06/CorrectWaves1.jpg?resize=615%2C408);
+	min-height: 330px;
+}
+
+.slider h2 {
+	text-align: center;
+  	font-size: 24px;
+  	font-weight: 24px;
+    margin-right: 40%;
+    margin-left: 40%;
+    padding: 10%;
+    overflow: hidden;
+  	color: white;
+  	white-space: nowrap;
+  	border: 4px solid white;
+  	margin-top: none;
+}
+
+.gridRow {
+	height: 300px;
+	width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	overflow: hidden;
+}
+
+/*.boxes:first-child {
+	position: relative;
+	left: 10%;
+}
+
+.boxes:last-child {
+	left: 90%;
+	position: relative;
+	overflow: hidden;
+}*/
+
+.boxes {
+	height: 100px;
+	/*background-image: url (https://i.pinimg.com/originals/da/a3/0e/daa30e08bf59383de93d9f26373a9020.jpg);*/
+	background-color: red;
+	display: inline-block;
+	border: 1px solid black;
+	width: 35%;
+	height: 80%;
+	position: relative;
+}
+
+#why {
+	min-height: 175px;
+	background-color: #8FBC8F;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#why p {
+	font-style: italic;
+	font-size: 20px;
+	margin: auto;
+  	display: block;
+  	text-align: center;
+  	width: 75%;
+  	font-weight: 300;
+}
+
+footer {
+	min-height: 150px;
+	background-color: #2F4F4F;
+	margin-top: 20px;
+	overflow: auto;
+	width: 100%;
+}
+
+footer button {
+  	background-color: #ADD8E6;
+  	min-height: 50px;
+  	border: white 1px solid;
+  	border-radius: 5px;
+  	font-size: 14px;
+  	padding-left: 20px;
+  	padding-right: 20px;
+  	text-align: center;
+  	max-width: 200px;
+  	margin:auto;
+  	display:block;
+
+@media (min-width: 1722px) 
+
+	.container {
+		max-width: 1200px;
+		margin: auto;
+	}
+
+	.hamburgerMenu {
+		display: none;
+	}
+
+	nav {
+	height: 50px;
+	background-color: #5F9EA0;
+	display: inline;
+}
