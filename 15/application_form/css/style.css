@@ -1,0 +1,96 @@
+
+* {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/15/application_form/images/background.png);
+}
+
+
+header {
+	background-color: #d3d3d3;
+	border-bottom: 1px solid black;
+	margin: none;
+	background: linear-gradient(white, gray);
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+h2, label {
+	font-size: 10px;
+}
+
+h2, div {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+input, textarea, select {
+	background-color: #ffefd5;
+}
+
+
+#container {
+	border: 1px solid black;
+	border-radius: 6px;
+	max-width: 700px;
+	min-height: 70%;
+	margin: auto;
+	background-color: white;
+}
+
+#firstName {
+	margin-left: 45px;
+}
+#phone1 {
+	margin-left: 27px;
+}
+
+#streetAddress {
+	margin-left: 58px;
+}
+
+#address2, #city {
+	margin-left: 99px;
+}
+
+#course {
+	margin-left: 62px;
+}
+
+#pastExperience {
+	margin-left: 22px;
+}
+
+#referral {
+	margin-left: 60px;
+}
+
+#comments {
+	margin-left: 48px;
+}
+
+#submit {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-left: 2px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	background: linear-gradient(white, silver);
+}
+
+
+
+
+
+
