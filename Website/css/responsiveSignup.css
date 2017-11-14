@@ -1,0 +1,65 @@
+
+* {
+	font-family: 'Muli', sans-serif;
+}
+
+
+body {
+	background-image: url(https://i.pinimg.com/originals/d9/07/99/d907991e98040c9328053bc2d92b266e.jpg);
+}
+
+header {
+	padding: 20px 10px;
+}
+
+
+h1 {
+	font-weight: 300;
+	font-size: 28px;
+	text-align: center;
+}
+
+
+input, select {
+	background-color: #FFF0F5;
+}
+
+
+.row {
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+.fabric {
+	margin-top: 10px;
+}
+
+#container {
+	border: 3px solid white;
+	border-radius: 6px;
+	width: 80%;
+	min-height: 75%;
+	margin: auto;
+	background-color: #E6E6FA;
+	margin-top: 50px;
+}
+
+#name {
+	margin-left: 74px;
+}
+
+#email {
+	margin-left: 78px;
+}
+
+#password {
+	margin-left: 44px;
+}
+
+@media (min-width: 768px) {
+
+#container {
+	max-width: 50%;
+}
+
+}

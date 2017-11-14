@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="css/responsiveSignup.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800');
+	</style>
+</head>
+<body>
+
+
+<div id="container">
+
+<header>
+	<h1>We Take Requests!</h1>
+</header>
+
+		<div class="row">
+			<label for="name">Name</label>
+			<input type="text" placeholder="Your Name" id="name" name="name" size="45">
+		</div>
+
+		<div class="row">
+			<label for="email">Email</label>
+			<input type="text" placeholder="youremail@domain.com" id="email" size="45">
+		</div>
+
+		<div class="row">
+			<label for="password">Password</label>
+			<input type="password" id="password" size = "45">
+		</div>
+
+		<div class="row">
+			<label for="fabricChoice">Which type of fabric do you prefer to wear?</label>
+		</div>
+
+		<div class="row">
+			<input type="radio" name="cotton" value="cotton" class="fabric">Cotton<br>
+			<input type="radio" name="wool" value="wool" class="fabric">Wool<br>
+			<input type="radio" name="silk" value="silk" class="fabric">Silk<br>
+			<input type="radio" name="cashmere" value="cashmere" class="fabric">Cashmere<br>
+		</div>
+
+		<div class="row">
+			<label for="clothingStyle">What style of clothing do you primarily wear?</label>
+		</div>
+		<div class="row">
+			<select id="clothingStyle">
+				<option value="--">--</option>
+				<option value="formal">Formal</option>
+				<option value="work">Work</option>
+				<option value="casual">Casual</option>
+				<option value="athleisure">Athleisure</option>
+				<option value="clubwear">Clubwear</option>
+		</div>
+
+		<div class="row">
+			<input type="submit" value="Submit" id="submit">
+		</div>
+		
+</div>
+
+
+
+
+
+
+
+
+	
+</body>
+</html>
