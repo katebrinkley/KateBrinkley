@@ -3,64 +3,80 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My Website Title</title>
-	<link rel="stylesheet" href="css/responsive.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="css/normalize.css">
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
 	<style>
-	@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800');
-</style>
+		@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800');
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Arvo:400i,700i" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
+	<div class="container center">
+		<header>
+			<nav class='toggleNav'>
+				<ul>
+					<li>TBD TITLE</li>
+					<li>Outfits</li>
+					<li>Fabrics</li>
+					<li>Why</li>
+				</ul>
+			</nav>
 
+			<div class="hamburgerMenu">
+				<hr>
+				<hr>
+				<hr>
+			</div>
+			
+		</header>
 
-<div class="container">
-	<header>
-		<nav class='togglenav'>
-			<ul>
-				<li>TBD TITLE</li>
-				<li>Outfits</li>
-				<li>Fabrics</li>
-				<li>Why</li>
-			</ul>
-		</nav>
+		<section class="slider">
+			<h1>Sample Title</h1>
+		</section>
 
-		<div class="hamburgerMenu">
-			<hr>
-			<hr>
-			<hr>
+		<div id="favorite">
+			<h2>OUR FAVORITE FABRICS:</h2>
 		</div>
-		
-	</header>
 
-	<section class="slider">
-		<h2>Sample Title</h2>
-	</section>
+		<div id="cotton">
+			<h2>cotton</h2>
+			<p>a line about how wonderful it is and why you shoudl wear it</p>
+		</div>
 
-	<div class="gridRow">
-		<div class="boxes"></div>
-		<div class="boxes"></div>
+		<div id="wool">
+			<h2>wool</h2>
+			<p>a line about how wonderful it is and why you shoudl wear it</p>
+		</div>
+
+		<div id="silk">
+			<h2>silk</h2>
+			<p>a line about how wonderful it is and why you shoudl wear it</p>
+		</div>
+
+		<div id="cashmere">
+			<h2>cashmere</h2>
+			<p>a line about how wonderful it is and why you shoudl wear it</p>
+		</div>
+
+		<div class="carusal center">
+			<div class="gridRow">
+				<div class="boxes"></div>
+			</div>
+		</div>
+
+		<section id="about">
+			<h2>ABOUT US</h2>
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		</section>
+		<footer id="signup">
+			<button>SIGN UP</button>
+		</footer>
 	</div>
-
-	<div class="gridRow">
-		<div class="boxes"></div>
-		<div class="boxes"></div>
-	</div>
-
-	<section id="about">
-		<h2>About Us</h2>
-		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-	</section>
-
-	
-	<footer id="signup">
-		<button>Sign up!
-		</button>
-	</footer>
-
-
-</div>
-
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>

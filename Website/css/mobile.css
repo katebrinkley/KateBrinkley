@@ -5,10 +5,6 @@
 	margin: auto;
 }	*/
 
-* {
-	font-family: 'Muli', sans-serif;
-}
-
 header {
 	overflow: hidden;
 	background-color: #2F4F4F;
@@ -21,6 +17,7 @@ nav {
 }
 
 nav ul li {
+	font-family: Muli;
 	float: left;
 	height: 50px;
 	width: 100%;
@@ -31,6 +28,7 @@ nav ul li {
 ul {
 	list-style-type: none;
 	position: relative;
+	font-family: Muli;
 }
 
 
@@ -41,19 +39,28 @@ hr {
 footer {
 	min-height: 75px;
 	background-color: #2F4F4F;
-	overflow: auto;
-	width: 100%;
 }
 
 .container {
-	width: 100%;
+	/*width: 100%;*/
 	margin: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.carusal {
 }
 
 .slider {
 	background-image: url(https://i0.wp.com/www.theweavingloom.com/wp-content/uploads/2015/06/CorrectWaves1.jpg?resize=615%2C408);
-	min-height: 330px;
+	min-height: 430px;
 	margin-bottom: 20px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 5%;
 }
 
 .hamburgerMenu {
@@ -65,7 +72,9 @@ footer {
 	margin: 10px;
 }
 
-.slider h2 {
+.slider h1 {
+	font-family: Muli;
+	display: block;
 	text-align: center;
   	font-size: 24px;
   	font-weight: 24px;
@@ -79,10 +88,7 @@ footer {
 }
 
 .gridRow {
-	width: 100%;
-	margin-left: 10%;
-	margin-right: 10%;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 
@@ -94,24 +100,49 @@ footer {
 	min-height: 250px;
 	margin: auto;
 	margin-bottom: 15px;
-	overflow: hidden;
+}
+
+#favorite, #cotton, #cashmere, #wool, #silk {
+	font-family: 'Arvo', serif;
+}
+
+#favorite {
+	font-weight: 700i;
+}
+
+#cotton p, #silk p, #cashmere p, #wool p {
+	font-weight: 400i;
+	font-size: 11px;
+}
+
+#favorite {
+	background-color: #2F4F4F;
+}
+
+#cotton {
+	background-image: url(https://thefabricofourlives.com/images/Types_of_cotton_chambray.jpg);
 }
 
 #about {
+	font-family: Muli;
 	min-height: 175px;
-	background-color: #8FBC8F;
+	/*background-color: #8FBC8F;*/
+	background-color: red;
 	color: white;
 	text-align: center;
 	width: 100%;
-	margin-bottom: 15px;
+	display: inline-block;
+	overflow: hidden;
 }
 
 #about h2 {
+	font-family: Muli;
 	font-size: 20px;
 	padding-top: 20px;
 }
 
 #about p {
+	font-family: Muli;
 	font-style: italic;
 	font-size: 12px;
 	margin: auto;
@@ -122,14 +153,20 @@ footer {
   	padding-bottom: 20px;
 }
 
-#signup button {
+#signup {
+	margin: auto;
+	padding-top: 20px;
+}
+
+/*#signup button {
+	font-family: Muli;
 	border: 2px solid white;
 	color: white;
 	margin: auto;
-	display: inline-block;
-	font: white;
+	display: block;
+	font-size: 18px;
 	font-weight: 600;
 	background-color: #2F4F4F;
 }
-
+*/
 
