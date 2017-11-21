@@ -1,10 +1,25 @@
+$(document).ready(function(){
+
+	//Window scroll
+	$("nav.toggleNav a").click(function(e) {
+		var id = $(this).attr('href');
+
+	    $('html, body').animate({
+	        scrollTop: $(id).offset().top
+	    }, 2000);
+
+	    e.preventDefault();
+	});
+});
+
+
 // $(document).ready(function(){
 
 
 
 // $("button").click(function(){
-//         $("button").attr("href", "file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/signup.html");
-//     });
+//   $("button").attr("href", "file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/signup.html");
+// });
 
 // $('.hamburgerMenu').click(function(){
 // 	$('nav').slideToggle('slow');

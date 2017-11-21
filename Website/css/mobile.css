@@ -13,7 +13,7 @@ header {
 nav {
 	height: 100px;
 	background-color: #5F9EA0;
-	display: none;
+	/*display: none;*/
 }
 
 nav ul li {
@@ -50,7 +50,7 @@ footer {
 	text-align: center;
 }
 
-.carusal {
+.carousel {
 }
 
 .slider {
@@ -89,6 +89,7 @@ footer {
 
 .gridRow {
 	/*overflow: hidden;*/
+	margin-top: 15px;
 }
 
 
@@ -102,32 +103,54 @@ footer {
 	margin-bottom: 15px;
 }
 
-#favorite, #cotton, #cashmere, #wool, #silk {
+#favorite, .fabric {
 	font-family: 'Arvo', serif;
 }
 
 #favorite {
 	font-weight: 700i;
+	margin: none;
+	background-color: #2F4F4F;
+	height: 150px;
 }
 
-#cotton p, #silk p, #cashmere p, #wool p {
+.cotton p, .silk p, .bamboo p, .wool p {
 	font-weight: 400i;
 	font-size: 11px;
 }
 
-#favorite {
-	background-color: #2F4F4F;
+.cotton h2, .silk h2, .bamboo h2, .wool h2{
+	font-weight: 400i;
+	font-size: 25px;
 }
 
-#cotton {
-	background-image: url(https://thefabricofourlives.com/images/Types_of_cotton_chambray.jpg);
+
+.wool {
+	margin-top: 0px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Two_lambs_rubber_ring_tail_docking.jpg/1280px-Two_lambs_rubber_ring_tail_docking.jpg);
+	height: 275px;
+}
+
+
+.cotton {
+	background-image: url(https://financialtribune.com/sites/default/files/field/image/17january/zs-cotton_167-ab.jpg);
+	height: 275px;
+}
+
+.silk {
+	background-image: url(https://i.pinimg.com/736x/88/1f/2a/881f2acc4d32db4d622cf444d9ec9648--moth-google-images.jpg);
+	height: 275px;
+}
+
+.bamboo {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8nzyDIDM4Grs1zL_rTqPXjqBZ2-vkz_Zt5sRt6GhHjSzmEW7);
+	height: 275px;
 }
 
 #about {
 	font-family: Muli;
 	min-height: 175px;
-	/*background-color: #8FBC8F;*/
-	background-color: red;
+	background-color: #8FBC8F;
 	color: white;
 	text-align: center;
 	width: 100%;
