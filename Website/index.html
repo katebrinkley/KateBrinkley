@@ -12,60 +12,73 @@
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Arvo:400i,700i" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="container center">
-		<header>
-			<nav class='toggleNav'>
-				<ul>
-					<li>TBD TITLE</li>
-					<li>Outfits</li>
-					<li>Fabrics</li>
-					<li>Why</li>
-					<li><a href="#woolSection">Wool</a></li>
-				</ul>
-			</nav>
 
-			<div class="hamburgerMenu">
-				<hr>
-				<hr>
-				<hr>
-			</div>
-			
+		<div id="headerContainer">
+			<header>
+				<nav class='toggleNav'>
+					<ul>
+						<li><a href="#favorite">Favorite Fabrics</a></li>
+						<li><a href="#gridRow">Shop</a></li>
+						<li><a href="#about">About Us</a></li>
+						<li><a href="#signup">Sign Up</a></li>
+					</ul>
+				</nav>
+
+				<div class="hamburgerMenu">
+					<hr>
+					<hr>
+					<hr>
+				</div>
+		</div>
+
 		</header>
 
 		<section class="slider">
-			<h1>Sample Title</h1>
+			<div id="sliderText">
+				<h1>Sample Title</h1>
+				<p>An online catalog of 100% natural fiber garments for a 100% sustainable outfit</p>
+			</div>
 		</section>
 
 		<div id="favorite">
 			<h2>OUR FAVORITE FABRICS:</h2>
 		</div>
 
-		<div class="wool fabric" id="woolSection">
-			<h2>wool</h2>
-			<p>a line about how wonderful it is and why you shoudl wear it</p>
+		<div id="fabricColumns">
+
+			<div class="wool fabric" id="woolSection">
+				<h2>wool</h2>
+				<p>a line about how wonderful it is and why you shoudl wear it</p>
+			</div>
+
+			<div class="cotton fabric">
+				<h2>cotton</h2>
+				<p>a line about how wonderful it is and why you shoudl wear it</p>
+			</div>
+
+			<div class="silk fabric">
+				<h2>silk</h2>
+				<p>a line about how wonderful it is and why you shoudl wear it</p>
+			</div>
+
+			<div class="bamboo fabric">
+				<h2>bamboo</h2>
+				<p>a line about how wonderful it is and why you shoudl wear it</p>
+			</div>
+
 		</div>
 
-		<div class="cotton fabric">
-			<h2>cotton</h2>
-			<p>a line about how wonderful it is and why you shoudl wear it</p>
-		</div>
-
-		<div class="silk fabric">
-			<h2>silk</h2>
-			<p>a line about how wonderful it is and why you shoudl wear it</p>
-		</div>
-
-		<div class="bamboo fabric">
-			<h2>bamboo</h2>
-			<p>a line about how wonderful it is and why you shoudl wear it</p>
-		</div>
-
-		<div class="carousel center">
-			<div class="gridRow">
-				<div class="boxes"></div>
+		<div class="gridRow">
+			<div class="boxes">
+			<div id="box1"></div>
+			<div id="box2"></div>
+			<div id="box3"></div>
 			</div>
 		</div>
 
@@ -78,6 +91,12 @@
 		</footer>
 	</div>
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
     <script src="js/index.js"></script>
 </body>
 </html>

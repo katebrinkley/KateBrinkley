@@ -1,32 +1,75 @@
 
 
-.container {
+/*.container {
 	max-width: 1200px;
 	margin: auto;
-}	
+}	*/
 
 header {
 	overflow: hidden;
 	background-color: #2F4F4F;
 }
 
+/*#headerContainer h1{
+	float: left;
+	overflow: hidden;
+	margin-left: 10px;
+}*/
+
 nav {
-	height: 50px;
+	height: 100px;
 	background-color: #5F9EA0;
-	display: none;
+	display: inline;
+	overflow: hidden;
 }
 
-nav ul li {
-	float: left;
+header nav ul li {
+	font-family: Muli;
 	height: 50px;
 	width: 100%;
-	max-width: 100px;
-	margin-right: 5px;
+	float: left;
 }
 
 ul {
+	font-family: Muli;
 	list-style-type: none;
-	position: relative;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+
+hr {
+	color: white;
+}
+
+footer {
+	min-height: 75px;
+	background-color: #2F4F4F;
+}
+
+.container {
+	/*width: 100%;*/
+	margin: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.slider {
+	background-image: url(https://i0.wp.com/www.theweavingloom.com/wp-content/uploads/2015/06/CorrectWaves1.jpg?resize=615%2C408);
+	min-height: 430px;
+	/*margin-bottom: 20px;*/
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .hamburgerMenu {
@@ -38,73 +81,187 @@ ul {
 	margin: 10px;
 }
 
-hr {
-	color: white;
-}
-
-.slider {
-	background-image: url(https://i0.wp.com/www.theweavingloom.com/wp-content/uploads/2015/06/CorrectWaves1.jpg?resize=615%2C408);
-	min-height: 330px;
-}
-
-.slider h2 {
+#sliderText {
+	font-family: Muli;
+	margin-top: 15px;
+	display: block;
 	text-align: center;
   	font-size: 24px;
   	font-weight: 24px;
-    margin-right: 40%;
-    margin-left: 40%;
     padding: 10%;
     overflow: hidden;
   	color: white;
-  	white-space: nowrap;
   	border: 4px solid white;
-  	margin-top: none;
+  	margin: auto;
+  	width: 60%;
+}
+
+.slider p {
+	text-align: center;
+}
+
+
+.fabric {
+	margin-top: 10px;
+	margin-bottom: none;
+	margin-left: 15px;
+	margin-right: 15px;
+  	display: block;
+  	text-align: center;
+  	overflow: hidden;
+
+}
+
+
+.cotton h2, .silk h2, .bamboo h2, .wool h2{
+	font-weight: 400i;
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+.cotton p, .silk p, .bamboo p, .wool p {
+	font-weight: 700i;
+	font-size: 30px;
+	padding-left: 15px;
+	padding-right: 15px;/*
+	padding-bottom: 10px;*/
+	margin: auto;
+	display: block;
+}
+
+.wool {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Two_lambs_rubber_ring_tail_docking.jpg/1280px-Two_lambs_rubber_ring_tail_docking.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: center-center;
+	color: #DB7093;
+	width: 22.5%;
+	float: right;
+}
+
+
+.cotton {
+	background-image: url(https://financialtribune.com/sites/default/files/field/image/17january/zs-cotton_167-ab.jpg);
+	height: 300px;
+	color: #D8BFD8;
+	background-size: cover;
+	background-repeat: none;
+	width: 22.5%;
+	float: right;
+}
+
+.silk {
+	background-image: url(https://i.pinimg.com/736x/88/1f/2a/881f2acc4d32db4d622cf444d9ec9648--moth-google-images.jpg);
+	height: 300px;
+	color: #2F4F4F;
+	background-size: cover;
+	background-repeat: none;
+	width: 22.5%;
+	float: right;
+}
+
+.bamboo {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8nzyDIDM4Grs1zL_rTqPXjqBZ2-vkz_Zt5sRt6GhHjSzmEW7);
+	height: 300px;
+	background-size: 250px;
+	background-size: cover;
+	background-repeat: none;
+	color: #FFDAB9;
+	width: 22.5%;
+	float: right;
 }
 
 .gridRow {
-	height: 300px;
+	/*overflow: hidden;*/
+	margin-top: 15px;
+	height: 375px;
 }
 
-.boxes {
-	height: 100px;
-	/*background-image: url (https://i.pinimg.com/originals/da/a3/0e/daa30e08bf59383de93d9f26373a9020.jpg);*/
+#headerContainer {
+	overflow: hidden;
+}
+
+
+#box1, #box2, #box3 {
 	background-color: red;
-	float: left;
+	display: inline-block;
 	border: 1px solid black;
-	width: 40%;
-	height: 80%;
-	margin: 10px 5px;
+	width: 262px;
+	min-height: 250px;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-#why {
+
+#about {
+	font-family: Muli;
 	min-height: 175px;
 	background-color: #8FBC8F;
 	color: white;
 	text-align: center;
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
 }
 
-#why p {
-	font-style: italic;
-	font-size: 12px;
+#favorite, .fabric {
+	font-family: 'Arvo', serif;
 }
 
-footer {
-	min-height: 150px;
+#favorite {
 	background-color: #2F4F4F;
-	margin-top: 20px;
-	overflow: auto;
+	height: 120px;
+	color: #E6E6FA;
+	margin-bottom: 10px;
 }
 
-footer button {
-  	background-color: #ADD8E6;
-  	min-height: 50px;
-  	border: white 1px solid;
-  	border-radius: 5px;
-  	font-size: 14px;
-  	padding-left: 20px;
-  	padding-right: 20px;
+#favorite h2 {
+	font-weight: 700i;
+	font-size: 60px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+#fabricColumns {
+	height: 315px;
+}
+
+#about h2 {
+	font-family: Muli;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+#about p {
+	font-family: Muli;
+	font-style: italic;
+	font-size: 18px;
+	margin: auto;
+  	display: block;
   	text-align: center;
-  	max-width: 200px;
-  	margin:auto;
-  	display:block;
+  	width: 75%;
+  	font-weight: 300;
+  	padding-bottom: 20px;
+}
+
+#signup {
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#signup button {
+	font-family: Muli;
+	border: 2px solid white;
+	color: white;
+	margin: auto;
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	background-color: #2F4F4F;
+	padding: 15px;
+}
+
 

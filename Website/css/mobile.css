@@ -13,7 +13,8 @@ header {
 nav {
 	height: 100px;
 	background-color: #5F9EA0;
-	/*display: none;*/
+	display: none;
+	overflow: hidden;
 }
 
 nav ul li {
@@ -27,7 +28,7 @@ nav ul li {
 
 ul {
 	list-style-type: none;
-	position: relative;
+	position: absolute;
 	font-family: Muli;
 }
 
@@ -50,13 +51,10 @@ footer {
 	text-align: center;
 }
 
-.carousel {
-}
-
 .slider {
 	background-image: url(https://i0.wp.com/www.theweavingloom.com/wp-content/uploads/2015/06/CorrectWaves1.jpg?resize=615%2C408);
 	min-height: 430px;
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -74,6 +72,7 @@ footer {
 
 .slider h1 {
 	font-family: Muli;
+	margin-top: 40px;
 	display: block;
 	text-align: center;
   	font-size: 24px;
@@ -87,13 +86,73 @@ footer {
   	width: 60%;
 }
 
+
+.fabric {
+	margin-top: 10px;
+	margin-bottom: none;
+	margin-left: 15px;
+	margin-right: 15px;
+  	display: block;
+  	text-align: center;
+  	overflow: hidden;
+
+}
+
+.cotton p, .silk p, .bamboo p, .wool p {
+	font-weight: 700i;
+	font-size: 30px;
+	padding-left: 15px;
+	padding-right: 15px;/*
+	padding-bottom: 10px;*/
+	margin: auto;
+	display: block;
+}
+
+.cotton h2, .silk h2, .bamboo h2, .wool h2{
+	font-weight: 400i;
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+.wool {
+	margin-top: 0px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Two_lambs_rubber_ring_tail_docking.jpg/1280px-Two_lambs_rubber_ring_tail_docking.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: center-top;
+	color: #DB7093;
+
+}
+
+
+.cotton {
+	background-image: url(https://financialtribune.com/sites/default/files/field/image/17january/zs-cotton_167-ab.jpg);
+	height: 300px;
+	color: #D8BFD8;
+}
+
+.silk {
+	background-image: url(https://i.pinimg.com/736x/88/1f/2a/881f2acc4d32db4d622cf444d9ec9648--moth-google-images.jpg);
+	height: 300px;
+	color: #2F4F4F;
+}
+
+.bamboo {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8nzyDIDM4Grs1zL_rTqPXjqBZ2-vkz_Zt5sRt6GhHjSzmEW7);
+	height: 300px;
+	background-size: 250px;
+	background-size: contain;
+	background-repeat: none;
+	color: #FFDAB9;
+}
+
 .gridRow {
 	/*overflow: hidden;*/
 	margin-top: 15px;
 }
 
 
-.boxes {
+#box1, #box2, #box3 {
 	background-color: red;
 	display: inline-block;
 	border: 1px solid black;
@@ -103,49 +162,10 @@ footer {
 	margin-bottom: 15px;
 }
 
-#favorite, .fabric {
-	font-family: 'Arvo', serif;
+#box2, #box3 {
+	display: none;
 }
 
-#favorite {
-	font-weight: 700i;
-	margin: none;
-	background-color: #2F4F4F;
-	height: 150px;
-}
-
-.cotton p, .silk p, .bamboo p, .wool p {
-	font-weight: 400i;
-	font-size: 11px;
-}
-
-.cotton h2, .silk h2, .bamboo h2, .wool h2{
-	font-weight: 400i;
-	font-size: 25px;
-}
-
-
-.wool {
-	margin-top: 0px;
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Two_lambs_rubber_ring_tail_docking.jpg/1280px-Two_lambs_rubber_ring_tail_docking.jpg);
-	height: 275px;
-}
-
-
-.cotton {
-	background-image: url(https://financialtribune.com/sites/default/files/field/image/17january/zs-cotton_167-ab.jpg);
-	height: 275px;
-}
-
-.silk {
-	background-image: url(https://i.pinimg.com/736x/88/1f/2a/881f2acc4d32db4d622cf444d9ec9648--moth-google-images.jpg);
-	height: 275px;
-}
-
-.bamboo {
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8nzyDIDM4Grs1zL_rTqPXjqBZ2-vkz_Zt5sRt6GhHjSzmEW7);
-	height: 275px;
-}
 
 #about {
 	font-family: Muli;
@@ -158,6 +178,24 @@ footer {
 	overflow: hidden;
 }
 
+#favorite, .fabric {
+	font-family: 'Arvo', serif;
+}
+
+#favorite {
+	background-color: #2F4F4F;
+	height: 250px;
+	color: #E6E6FA;
+	margin-bottom: 10px;
+}
+
+#favorite h2 {
+	font-weight: 700i;
+	font-size: 60px;
+	margin: auto;
+	padding-top: 20px;
+}
+
 #about h2 {
 	font-family: Muli;
 	font-size: 20px;
@@ -167,7 +205,7 @@ footer {
 #about p {
 	font-family: Muli;
 	font-style: italic;
-	font-size: 12px;
+	font-size: 18px;
 	margin: auto;
   	display: block;
   	text-align: center;
@@ -179,9 +217,10 @@ footer {
 #signup {
 	margin: auto;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-/*#signup button {
+#signup button {
 	font-family: Muli;
 	border: 2px solid white;
 	color: white;
@@ -190,6 +229,7 @@ footer {
 	font-size: 18px;
 	font-weight: 600;
 	background-color: #2F4F4F;
+	padding: 15px;
 }
-*/
+
 
