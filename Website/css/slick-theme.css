@@ -25,7 +25,7 @@
     position: absolute;
     top: 50%;
 
-    display: block;
+    display: inline;
 
     width: 20px;
     height: 20px;
@@ -74,7 +74,7 @@
     color: white;
 
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    /*-moz-osx-font-smoothing: grayscale;*/
 }
 
 .slick-prev
@@ -200,5 +200,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: black;
+    color: red;
 }

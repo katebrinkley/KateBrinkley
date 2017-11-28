@@ -1,5 +1,10 @@
 
 
+
+/**********************DESKTOP STYLES*******/
+/*********************************************/
+/********************************************/
+
 .container {
 	/*width: 100%;*/
 	margin: auto;
@@ -400,4 +405,78 @@ footer {
 	background-color: #2F4F4F;
 	padding: 15px;
 }
+
+/*******BREAKPOINT*******/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+
+
+header nav ul li {
+	height: 50px;
+	float: left;
+	margin-top: 15px;
+	text-decoration: none;
+	display: inline;
+	padding: 15px;
+	font-size: 22px;
+}
+
+.toggleNav {
+	overflow: hidden;
+	display: none;
+	position: absolute;
+}
+
+.hamburgerMenu {
+	border: 1px solid white;
+	float: right;
+	width: 50px;
+	height: auto;
+	padding: 5px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.slider h1 {
+	height: auto;
+	width: auto;
+}
+
+.sliderText {
+  	display: none;
+  }
+
+  #fabricColumns {
+	height: auto;
+	display: inline-block;
+}
+
+
+#fabricColumns button{
+	width: 270px;
+	height:280px;
+	display: inline-block;
+	width: 90%;
+}
+
+#fabricColumns {
+	background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/black-scattered-round-confetti-pattern-angel-pink-background-tina-lavoie.jpg);
+	background-repeat: none;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 65px;
+	min-height: 750px;
+}
+
+.boxClass {
+	background-color: red;
+	width: 70%;
+	min-height: 250px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+
+
+
 

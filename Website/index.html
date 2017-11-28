@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>My Website Title</title>
+	<title>Closet Conscious</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<link rel="stylesheet" href="css/normalize.css">
@@ -11,22 +11,21 @@
 		@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700,800');
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Arvo:400i,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" href="css/style..css">
 </head>
 <body>
 	<div class="container center">
 
-		<div id="headerContainer">
 			<header>
 				<nav class='toggleNav'>
 					<ul>
-						<li><a href="#favorite">Favorite Fabrics</a></li>
-						<li><a href="#gridRow">Shop</a></li>
-						<li><a href="#about">About Us</a></li>
-						<li><a href="#signup">Sign Up</a></li>
+						<li><a href="#favorite" class="navLink">Favorite Fabrics</a></li>
+						<li><a href=".gridRow" class="navLink">Shop</a></li>
+						<li><a href="#about" class="navLink">About Us</a></li>
+						<li><a href="#signup" class="navLink">Sign Up</a></li>
 					</ul>
 				</nav>
 
@@ -35,56 +34,122 @@
 					<hr>
 					<hr>
 				</div>
-		</div>
-
 		</header>
 
 		<section class="slider">
 			<div id="sliderText">
-				<h1>Sample Title</h1>
+				<h1>CLOSET CONSCIOUS</h1>
 				<p>An online catalog of 100% natural fiber garments for a 100% sustainable outfit</p>
 			</div>
 		</section>
 
 		<div id="favorite">
-			<h2>OUR FAVORITE FABRICS:</h2>
+			<h2>OUR FAVORITE FABRICS</h2>
+			<p>(click for more)</p>
 		</div>
 
 		<div id="fabricColumns">
 
-			<div class="wool fabric" id="woolSection">
-				<h2>wool</h2>
-				<p>a line about how wonderful it is and why you shoudl wear it</p>
+
+			<div class="test">
+				<button class="woolToggle fabric" >
+					<h2>wool</h2>
+				</button>
+				<div class="woolSlide">
+					<p>A fuzzy hug complete with natural wicking and magical comfort-creation in any temperature</p>
+				</div>
+			</div>
+			
+			<div class="test">
+				<button class="cottonToggle fabric">
+					<h2>cotton</h2>
+				</button>
+				<div class="cottonSlide">
+					<p>Cool and crisp for when you want to feel breezy but look structured</p>
+				</div>
 			</div>
 
-			<div class="cotton fabric">
-				<h2>cotton</h2>
-				<p>a line about how wonderful it is and why you shoudl wear it</p>
+			<div class="test">
+				<button class="silkToggle fabric">
+					<h2>silk</h2>
+				</button>
+				<div class="silkSlide">
+					<p>Fluid and breathable draping that never fails to flatter and intrigue</p>
+				</div>
 			</div>
 
-			<div class="silk fabric">
-				<h2>silk</h2>
-				<p>a line about how wonderful it is and why you shoudl wear it</p>
-			</div>
+			<div class="test">
 
-			<div class="bamboo fabric">
-				<h2>bamboo</h2>
-				<p>a line about how wonderful it is and why you shoudl wear it</p>
+				<button class="bambooToggle fabric">
+					<h2>bamboo</h2>
+				</button>
+				<div class="bambooSlide">
+					<p>Surprisingly soft for sweat sessions and lazy lounging alike</p>
+				</div>
+
 			</div>
 
 		</div>
 
 		<div class="gridRow">
+			<div class"gridHeader">
+				<h1>LET'S GO SHOPPING</h1>
+				<p>We've picked out some of our favorite pieces below:</p>
+			</div>
 			<div class="boxes">
-			<div id="box1"></div>
-			<div id="box2"></div>
-			<div id="box3"></div>
+			<!--<div id="box1" class="boxClass"><div id="overlay"><div><p>details</p></div></div>
+			</div>-->
+			<div id="box2" class="boxClass">
+				<a href="https://www.nordstromrack.com/shop/product/2219465/equipment-kendrix-silk-bomber?color=BOTTLE%20GREEN">
+					<button class="boxButton">Buy</button>
+				</a>
+			</div>
+			<div id="box3" class="boxClass">
+				<a href="https://www.everlane.com/products/womens-clean-cotton-pull-on-skirt-red?collection=skirts">
+					<button class="boxButton">Buy</button>
+				</a>
+			</div>
+			<div id="box4" class="boxClass">
+				<a href="http://www.levi.com/US/en_US/levi/p/125010256">
+					<button class="boxButton">Buy</button>
+				</a>
+			</div>
+			<div id="box5" class="boxClass">
+				<a href="http://us.asos.com/asos/asos-stripe-cotton-maxi-dress/prd/8116420?clr=multi&SearchQuery=cotton&pgesize=204&pge=0&totalstyles=372&gridsize=3&gridrow=14&gridcolumn=1">
+					<button class="boxButton">Buy</button>
+				</a>
+			</div>
+			<div id="box6" class="boxClass">
+				<a href="http://us.asos.com/asos/asos-mini-ultimate-cotton-smock-dress/prd/8496093?clr=black&SearchQuery=cotton&pgesize=36&pge=0&totalstyles=372&gridsize=3&gridrow=8&gridcolumn=2">
+					<button class="boxButton">Buy</button>
+				</a>
+			</div>
+			<div id="box7" class="boxClass">
+				<a href="https://www.everlane.com/products/womens-cashmere-crew2-softpink?collection=womens-100-dollar-cashmere">
+					<button class="boxButton">Buy</button>
+				</a>
+			</div>
+			<div id="box8" class="boxClass">
+				<a href="http://www.nastygal.com/sweetheart-beat-ruffle-top/AGG98307.html">
+					<button class="boxButton">Buy</button>
+				</a>
+			</div>
+			<div id="box9" class="boxClass">
+				<a href="https://www.google.com/url?hl=en&q=https://shop.nordstrom.com/s/madewell-star-tie-sleeve-silk-blouse/4756780?origin%3Dkeywordsearch-personalizedsort%26fashioncolor%3DTRUE%2520BLACK&source=gmail&ust=1511926037866000&usg=AFQjCNHg_Cv3LqX5ZY6en8nmX7DgepXprQ">
+					<button class="boxButton">Buy</button>
+				</a>
+			</div>
+			<div id="box10" class="boxClass">
+				<a href="http://www.american-giant.com/classic-full-zip/W1-1A-1.html?dwvar_W1-1A-1_color=black&cgid=womens#start=1">
+					<button class="boxButton">Buy</button>
+				</a>
+			</div>
 			</div>
 		</div>
 
 		<section id="about">
 			<h2>ABOUT US</h2>
-			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			<p>You love the planet-it’s been your home your whole life. You reuse, recycle, maybe even forego a car—but is your closet as green as you are? While polyester fabrics are affordable and attainable, all those plastics fibers stick around once you’re through with your purchase. As fast fashion, powered largely by plastic, continues to dominate the retail industry, mindful consumers are hard pressed to stem the tide of waste left in its wake. Eco-focused customers don’t have to wrap themselves in a burlap sack to lighten their plastic production; shopping sprees are still possible if you know what to look for. Your favorite stores still continue to meet demand for natural, comfortable and sustainable fabrics that work to make you feel your best–and don’t become trash once you no longer love them. We’re here to help with an ever-growing online catalog with picks from major retailers and up-and-coming shops to match your lifestyle and aesthetic.</p>
 		</section>
 		<footer id="signup">
 			<a href="signup.html"><button>SIGN UP</button></a>
@@ -92,11 +157,7 @@
 	</div>
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
- 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="slick/slick.min.js"></script>
-
-
+ 	 <script src="js/slick.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>

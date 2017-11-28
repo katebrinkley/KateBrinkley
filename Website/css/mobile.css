@@ -152,7 +152,7 @@ footer {
 }
 
 
-#box1, #box2, #box3 {
+.boxClass {
 	background-color: red;
 	display: inline-block;
 	border: 1px solid black;
@@ -161,6 +161,7 @@ footer {
 	margin: auto;
 	margin-bottom: 15px;
 }
+
 
 #box2, #box3 {
 	display: none;

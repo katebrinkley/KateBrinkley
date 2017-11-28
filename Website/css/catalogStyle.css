@@ -1,0 +1,151 @@
+header {
+	background-color: black;
+	height: 61px;
+	border-bottom: 2px solid #FFFF00;
+}
+
+header h1 {
+	font-family: 'Merriweather', serif;
+	color: #FFFF00;
+	display: inline-block;
+	text-align: left;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-right: 150px;
+	margin-top: 20px;
+}
+
+nav {
+	background-color: black;
+	overflow: hidden;
+	display: inline-block;
+	float: right;
+}
+
+
+header nav ul li {
+	text-align: right;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 15px;
+	font-size: 16px;
+}
+
+ul {
+	font-family: 'Source Sans Pro', sans-serif;
+	list-style-type: none;
+	display: inline-block;
+	text-align: right;
+	color: #C6C6C6;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #C6C6C6;
+}
+
+button {
+	width: 280px;
+	background-color: #FFFF00;
+	font-weight: 700;
+	font-size: 12px;
+	margin:7.5px;
+	padding: 12px 5px;
+}
+
+footer {
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	display: inline-block;
+	text-align: left;
+	font-size: 12px;
+	padding-left: 95px;
+	padding-top: 20px;
+	color: #C6C6C6;
+}
+
+.active{
+	background-color: gray;
+	padding: 30px 25px;
+	margin-top: none;
+	display: inline;
+	margin-bottom: none;
+}
+
+li.oswald {
+	font-family: 'Oswald', sans-serif;
+}
+
+.rowBox {
+	height: 450px;
+	width: 295px;
+	float: right;
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.photoBox {
+	height: 280px;
+	width: 280px;
+	background-color: #C6C6C6;
+	margin-top: 7.5px;
+	margin-left: 7.5px;
+}
+
+.photoBox p {
+	color: gray;
+	font-size: 20px;
+	padding-top: 45%;
+	text-align: center;
+}
+
+.rowBox h2 {
+	display: inline-block;
+	text-align: left;
+	font-weight: 400px;
+	font-size: 16px;
+	margin-left: 7.5px;
+	color: gray;
+}
+
+.skillButtons {
+	margin-left: 7.5px;
+}
+
+.skillButtons p {
+	display: inline-block;
+	text-align: left;
+	border: gray;
+	background-color: gray;
+	border-radius: 10px;
+	padding: 5px 15px; 
+	color: white;
+	font-size: 10px;
+}
+
+#buttonContainer {
+	display: inline-block;
+	text-align: left;
+}
+
+#container {
+	background-color: #C6C6C6;
+}
+
+#boxesContainer {
+	background-color: #C6C6C6;
+	height: 2250px;
+	border-top: yellow 2px;
+}
+
+#row1, #row2, #row3, #row4, #row5 {
+	width: 90%;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
