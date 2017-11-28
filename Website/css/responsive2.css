@@ -1,39 +1,39 @@
 
 
-
-/**********************DESKTOP STYLES*******/
-/*********************************************/
-/********************************************/
-
-.container {
-	/*width: 100%;*/
+/*.container {
+	max-width: 1200px;
 	margin: auto;
-}
-
-.center {
-	text-align: center;
-}
-
-/*********HEADER STYLES****************/
+}	*/
 
 header {
-	background-color: #2F4F4F;
-	height: 80px;
-}
-
-header nav ul li {
-	height: 50px;
-	float: left;
-	margin-top: 15px;
-	text-decoration: none;
-	display: inline;
-	padding: 15px;
-	font-size: 22px;
-}
-
-.toggleNav {
 	overflow: hidden;
-	display: inline;
+	background-color: #2F4F4F;
+}
+
+nav {
+	display: none;
+	font-family: Muli;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+}
+
+nav ul li {
+	width: 100px;
+	margin: auto;
+	padding-right: 25%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+ul {
+	list-style-type: none;
+	position: absolute;
+	font-family: Muli;
+	background-color: #5F9EA0;
+	color: white;
+	display: inline-block;
+	z-index: 1;
 }
 
 a.navLink:link {
@@ -44,23 +44,25 @@ a.navLink:visited {
 	color: white;
 }
 
-/*#headerContainer h1{
-	float: left;
-	overflow: hidden;
-	margin-left: 10px;
-}*/
-
-ul {
-	font-family: Muli;
-	list-style-type: none;
-	display: inline;
-	color: white;
-	margin: 0;
-}
 
 hr {
 	color: white;
 }
+
+footer {
+	min-height: 75px;
+	background-color: #2F4F4F;
+}
+
+.container {
+	/*width: 100%;*/
+	margin: auto;
+}
+
+.center {
+	text-align: center;
+}
+
 
 .hamburgerMenu {
 	border: 1px solid white;
@@ -69,18 +71,15 @@ hr {
 	height: auto;
 	padding: 5px;
 	margin: 10px;
-	display: none;
+	display: inline;
 }
 
-#headerContainer {
-	overflow: hidden;
-}
 
-/************SLIDER STYLES****************/
+/**************************SLIDER*************/
 
 .slider {
 	background-image: url(https://i0.wp.com/www.theweavingloom.com/wp-content/uploads/2015/06/CorrectWaves1.jpg?resize=615%2C408);
-	min-height: 430px;
+	height: auto;
 	/*margin-bottom: 20px;*/
 	background-repeat: no-repeat;
     background-size: cover;
@@ -89,19 +88,18 @@ hr {
     padding-bottom: 5%;
 }
 
+
 #sliderText {
 	font-family: Muli;
 	margin-top: 15px;
 	display: block;
 	text-align: center;
-  	font-size: 24px;
-  	font-weight: 24px;
     padding: 10%;
     overflow: hidden;
   	color: #2F4F4F;
   	border: 4px solid #2F4F4F;
   	margin: auto;
-  	width: 60%;
+  	width: 90%;
   	background-color: white;
   	opacity: 0.7;
 }
@@ -111,58 +109,41 @@ hr {
 }
 
 .slider h1 {
-	font-size: 92px;
 	font-family: 'Poiret One', cursive;
+	display: inline;
+    overflow: hidden;
+  	border: 4px solid white;
+  	margin: auto;
 }
 
 
-.test {
-	margin: auto;
-  	display: inline-block;
-  	text-align: center;
-  	overflow: hidden;*/
-  	min-width: 300px;
-	height: auto;
-	flex-direction: row;
-	overflow: hidden;
-	vertical-align: top;
+/**********************Toggle Boxes***************************/
 
+#favorite {
+	width: 100%;
+	height: auto;
+	background-color: #2F4F4F;
+	color: #E6E6FA;
+	border-top: 2px solid #E6E6FA;
+	border-bottom: 2px solid #E6E6FA;
 }
 
 #favorite, .fabric {
 	font-family: 'Arvo', serif;
 }
 
-#favorite {
-	background-color: #2F4F4F;
-	height: 150px;
-	color: #E6E6FA;
-	border-top: 2px solid #E6E6FA;
-	border-bottom: 2px solid #E6E6FA;
-	
-}
 
 #favorite h2 {
 	font-weight: 700i;
-	font-size: 60px;
 	margin: auto;
 	padding-top: 20px;
 }
 
-#fabricColumns {
-	height: auto;
-	display: flex;
+.test {
+	width: 95%;
+	margin: auto;
+	margin-bottom: 15px;
 }
-
-
-#fabricColumns button{
-	width: 270px;
-	height:280px;
-	display: flex;
-}
-
-
-/**Toggle Boxes**/
 
 .cottonToggle h2, .silkToggle h2, .bambooToggle h2, .woolToggle h2{
 	font-weight: 400i;
@@ -174,8 +155,7 @@ hr {
 	font-family: 'Arvo', serif;
 	font-weight: 700i;
 	font-size: 30px;
-	padding-left: 15px;
-	padding-right: 15px;/*
+	padding: 15px 18px;
 	padding-bottom: 10px;*/
 	margin: auto;
 	display: block;
@@ -186,7 +166,7 @@ hr {
 	display: none;
 	text-align: center;
   	overflow: hidden;
-  	width: 270px;
+  	width: 100%;
 }
 
 .woolToggle {
@@ -195,7 +175,7 @@ hr {
 	background-size: cover;
 	background-position: center-center;
 	color: #DB7093;
-	width: 22.5%;
+	width: 100%;
 }
 
 
@@ -205,7 +185,7 @@ hr {
 	color: #D8BFD8;
 	background-size: cover;
 	background-repeat: none;
-	width: 22.5%;
+	width: 100%;
 }
 
 .silkToggle {
@@ -214,7 +194,7 @@ hr {
 	color: #2F4F4F;
 	background-size: cover;
 	background-repeat: none;
-	width: 22.5%;
+	width: 100%;
 }
 
 .bambooToggle {
@@ -224,7 +204,27 @@ hr {
 	background-size: cover;
 	background-repeat: none;
 	color: #FFDAB9;
-	width: 22.5%;
+	width: 100%;
+}
+
+.cottonSlide {
+	background-color: #F08080;
+	color: #D8BFD8;
+}
+
+.woolSlide {
+	background-color: #B0E0E6;
+	color: #DB7093;
+}
+
+.silkSlide {
+	background-color: #F0F8FF;
+	color: #2F4F4F;
+}
+
+.bambooSlide {
+	background-color: #B0C4DE;
+	color: #FFDAB9;
 }
 
 #fabricColumns {
@@ -236,13 +236,21 @@ hr {
 	min-height: 750px;
 }
 
+
+/***************************************/
+
+
+
+
+
 /*****SHOPPING SLIDER***********/
 
 
 .gridRow {
 	overflow: hidden;
 	margin-top: none;
-	min-height: 600px;
+	width: 100%;
+	height: auto;
 	background-color: #D8BFD8;
 	font-family: 'Poiret One', cursive;
 }
@@ -260,14 +268,19 @@ hr {
 .boxClass{
 	display: inline-block;
 	border: 1px solid black;
-	max-width: 262px;
-	min-height: 250px;
+	max-width: 260px;
+	min-height: 248px;
 	margin-top: 35px;
 	margin-bottom: 15px;
 	margin-left: 20px;
 	margin-right: 20px;
 	position: relative;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 15px;
+	background-repeat: none;
 }
+
 
 /********BOX LINKS***********//
 
@@ -338,22 +351,82 @@ hr {
     cursor: pointer; /* Add a pointer on hover */
 }
 
+/***************TEST 2*******************************/
+
+/***********************TEST AREA 2 -GRID*************************************/
+
+
+.section2 {
+	overflow: hidden;
+	margin-top: none;
+	min-height: 600px;
+	background-color: #D8BFD8;
+	font-family: 'Poiret One', cursive;
+	padding-bottom: 5%
+}
+
+.gridHeader2 {
+	display: inline-block;
+	width: 100%;
+	margin: none;
+}
+
+.gridHeader2 h1 {
+	padding-top: 30px;
+}
+
+.boxClass2{
+	display: inline-block;
+	border: 1px solid black;
+	width: 263px;
+	height: 251px;
+	margin: 5px;
+}
+
+.boxesRow {
+ 	margin: auto;
+ 	display: block;
+ 	width: 97%;
+}
+
+.boxClass2 .overlay {
+
+    position: absolute; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    opacity: 0;
+  	transition: opacity 1s;
+  	width: 100%; /* Full width (cover the whole page) */
+   	height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+  	color: red;
+    background-color: /*rgba(0,0,0,0.85)*/; /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+
 .boxButton {
 	font-family: Muli;
-	display: inline-block;
-	text-align: center;
-	margin-top: 90%;
 	color: #E0FFFF;
 	background-color: #BC8F8F;
 }
 
 
-/*********ABOUT US STYLES************/
+
+/**********************ABOUT*****************/
 
 
 #about {
 	font-family: Muli;
-	min-height: 175px;
+	height: auto;
 	background-color: #8FBC8F;
 	color: white;
 	text-align: center;
@@ -361,7 +434,6 @@ hr {
 	display: inline-block;
 	overflow: hidden;
 }
-
 
 #about h2 {
 	font-family: Muli;
@@ -381,11 +453,545 @@ hr {
   	padding-bottom: 20px;
 }
 
+#facts {
+	background-image
+	font-family: 'Poiret One', cursive;
+	height: auto;
+	background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/download.png);
+	background-color:rgba(0, 0, 0, 0.5);
+	background-size: cover;
+  	opacity: 0.7;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#facts p {
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 22px;
+	margin: auto;
+  	display: block;
+  	text-align: center;
+  	width: 75%;
+  	color: #191970;
+  	font-weight: 300;
+  	padding-bottom: 20px;
+  	padding-top: 20px;
+  	opacity: 1;
+}
+
+#facts span {
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	color: #483D8B;
+}
+
+/*************SIGNUP & FOOTER*************/
+
+#signup {
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#signup button {
+	font-family: Muli;
+	border: 2px solid white;
+	color: white;
+	margin: auto;
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	background-color: #2F4F4F;
+	padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+/**************************MEDIA QUERY BREAKPOINT**********************/
+/**********************************************************************/
+/**********************************************************************/
+/**********************************************************************/
+
+@media (min-width: 992px) { 
+
+/*********HEADER STYLES****************/
+header {
+	background-color: #2F4F4F;
+	height: 100px;
+}
+
+header nav ul li {
+	padding: 10px;
+	text-decoration: none;
+	width: 100px;
+	word-wrap: normal;
+	
+}
+
+
+nav {
+	overflow: hidden;
+	display: inline;
+}
+
+header nav ul li {
+	height: 50px;
+	float: left;
+	margin-top: 15px;
+	text-decoration: none;
+	display: inline;
+	padding: 15px;
+	font-size: 22px;
+	max-width: 100px;
+	margin: auto;
+}
+
+ul {
+	list-style-type: none;
+	position: relative;
+	display: block;
+	color: white;
+	width: 100%;
+	display: inline-block;
+	z-index: 1;
+	background-color: #2F4F4F;
+	margin-bottom: 10px;
+}
+
+nav {
+	font-family: Muli;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+}
+
+nav ul li {
+	
+	padding-right: 25%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+/*#headerContainer h1{
+	float: left;
+	overflow: hidden;
+	margin-left: 10px;
+}*/
+
+
+
+.hamburgerMenu {
+	display: none;
+}
+
+/*--*/
+
+
+/************SLIDER STYLES****************/
+
+
+#sliderText {
+	font-family: Muli;
+	margin-top: 15px;
+	display: block;
+	text-align: center;
+  	font-size: 24px;
+  	font-weight: 24px;
+    padding: 10%;
+    overflow: hidden;
+  	color: #2F4F4F;
+  	border: 4px solid #2F4F4F;
+  	margin: auto;
+  	width: 60%;
+  	background-color: white;
+  	opacity: 0.7;
+}
+
+.slider p {
+	text-align: center;
+}
+
+.slider h1 {
+	font-size: 92px;
+	font-family: 'Poiret One', cursive;
+}
+
+/************FABRIC COLUMNS************/
+
+
+.test {
+	margin: auto;
+  	display: inline-block;
+  	text-align: center;
+  	overflow: hidden;*/
+  	min-width: 300px;
+	height: auto;
+	flex-direction: row;
+	overflow: hidden;
+	vertical-align: top;
+
+}
+
+#favorite, .fabric {
+	font-family: 'Arvo', serif;
+}
+
+#favorite {
+	background-color: #2F4F4F;
+	height: 150px;
+	color: #E6E6FA;
+	border-top: 2px solid #E6E6FA;
+	border-bottom: 2px solid #E6E6FA;
+	
+}
+
+#favorite h2 {
+	font-weight: 700i;
+	font-size: 60px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+#fabricColumns {
+	height: auto;
+	display: flex;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+
+#fabricColumns button{
+	width: 270px;
+	height:280px;
+	display: flex;
+}
+
+
+/**Toggle Boxes**/
+
+
+
+/**Toggle Boxes**/
+
+.cottonToggle h2, .silkToggle h2, .bambooToggle h2, .woolToggle h2{
+	font-weight: 400i;
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+.cottonSlide p, .silkSlide p, .bambooSlide p, .woolSlide p {
+	font-family: 'Arvo', serif;
+	font-weight: 700i;
+	font-size: 30px;
+	padding: 15px 18px;
+	padding-bottom: 10px;*/
+	margin: auto;
+	display: block;
+}
+
+.cottonSlide, .silkSlide, .bambooSlide, .woolSlide {
+	background-color: gray;
+	display: none;
+	text-align: center;
+  	overflow: hidden;
+  	width: 270px;
+}
+
+.woolToggle {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Two_lambs_rubber_ring_tail_docking.jpg/1280px-Two_lambs_rubber_ring_tail_docking.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: center-center;
+	color: #DB7093;
+	width: 22.5%;
+}
+
+
+.cottonToggle {
+	background-image: url(https://financialtribune.com/sites/default/files/field/image/17january/zs-cotton_167-ab.jpg);
+	height: 300px;
+	color: #D8BFD8;
+	background-size: cover;
+	background-repeat: none;
+	width: 22.5%;
+}
+
+.silkToggle {
+	background-image: url(https://i.pinimg.com/736x/88/1f/2a/881f2acc4d32db4d622cf444d9ec9648--moth-google-images.jpg);
+	height: 300px;
+	color: #2F4F4F;
+	background-size: cover;
+	background-repeat: none;
+	width: 22.5%;
+}
+
+.bambooToggle {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8nzyDIDM4Grs1zL_rTqPXjqBZ2-vkz_Zt5sRt6GhHjSzmEW7);
+	height: 300px;
+	background-size: 250px;
+	background-size: cover;
+	background-repeat: none;
+	color: #FFDAB9;
+	width: 22.5%;
+}
+
+.cottonSlide {
+	background-color: #F08080;
+	color: #D8BFD8;
+}
+
+.woolSlide {
+	background-color: #B0E0E6;
+	color: #DB7093;
+}
+
+.silkSlide {
+	background-color: #F0F8FF;
+	color: #2F4F4F;
+}
+
+.bambooSlide {
+	background-color: #B0C4DE;
+	color: #FFDAB9;
+}
+
+#fabricColumns {
+	background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/black-scattered-round-confetti-pattern-angel-pink-background-tina-lavoie.jpg);
+	background-repeat: none;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 65px;
+	min-height: 750px;
+}
+/*****SHOPPING SLIDER TEST#1***********/
+
+
+.gridRow {
+	overflow: hidden;
+	margin-top: none;
+	min-height: 600px;
+	background-color: #D8BFD8;
+	font-family: 'Poiret One', cursive;
+}
+
+.gridHeader {
+	display: inline-block;
+	width: 100%;
+	margin: none;
+}
+
+.gridHeader h1 {
+	padding-top: 30px;
+}
+
+.boxClass{
+	display: inline-block;
+	border: 1px solid black;
+	max-width: 260px;
+	min-height: 248px;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+}
+
+/********BOX LINKS***********//
+
+	/*#box1 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic7.png);
+	}*/
+
+	#box2 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic10.png);
+	}
+
+	#box3 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic3.png);
+	}
+
+	#box4 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic2.png);
+	}
+
+	#box5 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic1.png)
+	}
+
+	#box6 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic5.png);
+	}
+
+	#box7 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic8.png);
+		background-repeat: none;
+	}
+
+	#box8{
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic6.png);
+	}
+
+	#box9 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic9.png);
+	}
+
+	#box10 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic4.png);
+	}
+
+
+.gridRow .slick-prev {
+  left: 10px;
+}
+
+.gridRow .slick-next {
+  right: 10px;
+}
+
+
+/***********************TEST AREA 2 -GRID*************************************/
+
+
+.section2 {
+	overflow: hidden;
+	margin-top: none;
+	min-height: 600px;
+	background-color: #D8BFD8;
+	font-family: 'Poiret One', cursive;
+	padding-bottom: 5%
+}
+
+.gridHeader2 {
+	display: inline-block;
+	width: 100%;
+	margin: none;
+}
+
+.gridHeader2 h1 {
+	padding-top: 30px;
+}
+
+.boxClass2{
+	display: inline-block;
+	border: 1px solid black;
+	width: 263px;
+	height: 251px;
+	margin: 5px;
+}
+
+.boxesRow {
+ 	margin: auto;
+ 	display: block;
+ 	width: 97%;
+}
+
+.overlay {
+
+    position: absolute; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    opacity: 0;
+  	transition: opacity 1s;
+  	width: 100%; /* Full width (cover the whole page) */
+   	height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+  	color: red;
+    background-color: /*rgba(0,0,0,0.85)*/; /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.info {
+	color: #8B008B;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+
+}
+
+.boxButton {
+	font-family: Muli;
+	color: #E0FFFF;
+	background-color: #BC8F8F;
+}
+
+
+img {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+
+
+/*********ABOUT US STYLES************/
+
+.aboutUs {
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+#about {
+	height: 400px;
+	width: 65%;
+	float: left;
+	display: inline;
+	overflow: hidden;
+
+}
+
+
+#about h2 {
+	font-family: Muli;
+	font-size: 26px;
+	padding-top: 20px;
+}
+
+#about p {
+	font-family: Muli;
+	font-style: italic;
+	font-size: 18px;
+	margin: auto;
+  	display: block;
+  	text-align: center;
+  	width: 75%;
+  	font-weight: 300;
+  	padding-bottom: 20px;
+}
+
+#facts {
+	float: right;
+	width: 35%;
+	height: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: inline;
+}
+
+#facts p {
+	font-size: 20px;
+}
+
 /*********SIGNUP AND FOOTER************/
 
-footer {
+#footerDiv {
 	min-height: 75px;
 	background-color: #2F4F4F;
+	width: 100%;
+	display: block;
+	overflow: hidden;
 }
 
 #signup {
@@ -406,77 +1012,5 @@ footer {
 	padding: 15px;
 }
 
-/*******BREAKPOINT*******/
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
-
-
-header nav ul li {
-	height: 50px;
-	float: left;
-	margin-top: 15px;
-	text-decoration: none;
-	display: inline;
-	padding: 15px;
-	font-size: 22px;
 }
-
-.toggleNav {
-	overflow: hidden;
-	display: none;
-	position: absolute;
-}
-
-.hamburgerMenu {
-	border: 1px solid white;
-	float: right;
-	width: 50px;
-	height: auto;
-	padding: 5px;
-	margin: 10px;
-	display: inline-block;
-}
-
-.slider h1 {
-	height: auto;
-	width: auto;
-}
-
-.sliderText {
-  	display: none;
-  }
-
-  #fabricColumns {
-	height: auto;
-	display: inline-block;
-}
-
-
-#fabricColumns button{
-	width: 270px;
-	height:280px;
-	display: inline-block;
-	width: 90%;
-}
-
-#fabricColumns {
-	background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/black-scattered-round-confetti-pattern-angel-pink-background-tina-lavoie.jpg);
-	background-repeat: none;
-	margin: auto;
-	padding-top: 30px;
-	padding-bottom: 65px;
-	min-height: 750px;
-}
-
-.boxClass {
-	background-color: red;
-	width: 70%;
-	min-height: 250px;
-	margin: auto;
-	margin-bottom: 15px;
-}
-
-
-
-
-

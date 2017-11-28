@@ -11,7 +11,7 @@ header {
 }
 
 nav {
-	height: 100px;
+	height: auto;
 	background-color: #5F9EA0;
 	display: none;
 	overflow: hidden;
@@ -19,17 +19,31 @@ nav {
 
 nav ul li {
 	font-family: Muli;
-	float: left;
+	text-align: center;
 	height: 50px;
 	width: 100%;
 	max-width: 100px;
-	margin-right: 5px;
+	margin: auto;
+	padding-right: 25%;
+	padding-top: 10%;
 }
 
 ul {
 	list-style-type: none;
 	position: absolute;
 	font-family: Muli;
+	background-color: #5F9EA0;
+	color: white;
+	display: inline-block;
+	z-index: 1;
+}
+
+a.navLink:link {
+	color: white;
+}
+
+a.navLink:visited {
+	color: white;
 }
 
 
@@ -51,15 +65,6 @@ footer {
 	text-align: center;
 }
 
-.slider {
-	background-image: url(https://i0.wp.com/www.theweavingloom.com/wp-content/uploads/2015/06/CorrectWaves1.jpg?resize=615%2C408);
-	min-height: 430px;
-	/*margin-bottom: 20px;*/
-	background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding-top: 5%;
-}
 
 .hamburgerMenu {
 	border: 1px solid white;
@@ -68,133 +73,307 @@ footer {
 	height: auto;
 	padding: 5px;
 	margin: 10px;
+	display: inline;
+}
+
+
+/**************************SLIDER*************/
+
+.slider {
+	background-image: url(https://i0.wp.com/www.theweavingloom.com/wp-content/uploads/2015/06/CorrectWaves1.jpg?resize=615%2C408);
+	height: auto;
+	/*margin-bottom: 20px;*/
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+#sliderText {
+	font-family: Muli;
+	margin-top: 15px;
+	display: block;
+	text-align: center;
+    padding: 10%;
+    overflow: hidden;
+  	color: #2F4F4F;
+  	border: 4px solid #2F4F4F;
+  	margin: auto;
+  	width: 90%;
+  	background-color: white;
+  	opacity: 0.7;
+}
+
+.slider p {
+	text-align: center;
 }
 
 .slider h1 {
-	font-family: Muli;
-	margin-top: 40px;
-	display: block;
-	text-align: center;
-  	font-size: 24px;
-  	font-weight: 24px;
-    padding: 10%;
+	font-family: 'Poiret One', cursive;
+	display: inline;
     overflow: hidden;
-  	color: white;
-  	white-space: nowrap;
   	border: 4px solid white;
   	margin: auto;
-  	width: 60%;
 }
 
 
-.fabric {
-	margin-top: 10px;
-	margin-bottom: none;
-	margin-left: 15px;
-	margin-right: 15px;
-  	display: block;
-  	text-align: center;
-  	overflow: hidden;
+/**********************Toggle Boxes***************************/
 
-}
-
-.cotton p, .silk p, .bamboo p, .wool p {
-	font-weight: 700i;
-	font-size: 30px;
-	padding-left: 15px;
-	padding-right: 15px;/*
-	padding-bottom: 10px;*/
-	margin: auto;
-	display: block;
-}
-
-.cotton h2, .silk h2, .bamboo h2, .wool h2{
-	font-weight: 400i;
-	font-size: 50px;
-	padding-top: 10px;
-}
-
-.wool {
-	margin-top: 0px;
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Two_lambs_rubber_ring_tail_docking.jpg/1280px-Two_lambs_rubber_ring_tail_docking.jpg);
-	height: 300px;
-	background-size: cover;
-	background-position: center-top;
-	color: #DB7093;
-
-}
-
-
-.cotton {
-	background-image: url(https://financialtribune.com/sites/default/files/field/image/17january/zs-cotton_167-ab.jpg);
-	height: 300px;
-	color: #D8BFD8;
-}
-
-.silk {
-	background-image: url(https://i.pinimg.com/736x/88/1f/2a/881f2acc4d32db4d622cf444d9ec9648--moth-google-images.jpg);
-	height: 300px;
-	color: #2F4F4F;
-}
-
-.bamboo {
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8nzyDIDM4Grs1zL_rTqPXjqBZ2-vkz_Zt5sRt6GhHjSzmEW7);
-	height: 300px;
-	background-size: 250px;
-	background-size: contain;
-	background-repeat: none;
-	color: #FFDAB9;
-}
-
-.gridRow {
-	/*overflow: hidden;*/
-	margin-top: 15px;
-}
-
-
-.boxClass {
-	background-color: red;
-	display: inline-block;
-	border: 1px solid black;
-	width: 70%;
-	min-height: 250px;
-	margin: auto;
-	margin-bottom: 15px;
-}
-
-
-#box2, #box3 {
-	display: none;
-}
-
-
-#about {
-	font-family: Muli;
-	min-height: 175px;
-	background-color: #8FBC8F;
-	color: white;
-	text-align: center;
+#favorite {
 	width: 100%;
-	display: inline-block;
-	overflow: hidden;
+	height: auto;
+	background-color: #2F4F4F;
+	color: #E6E6FA;
+	border-top: 2px solid #E6E6FA;
+	border-bottom: 2px solid #E6E6FA;
 }
 
 #favorite, .fabric {
 	font-family: 'Arvo', serif;
 }
 
-#favorite {
-	background-color: #2F4F4F;
-	height: 250px;
-	color: #E6E6FA;
-	margin-bottom: 10px;
-}
 
 #favorite h2 {
 	font-weight: 700i;
-	font-size: 60px;
 	margin: auto;
 	padding-top: 20px;
+}
+
+.test {
+	width: 95%;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.cottonToggle h2, .silkToggle h2, .bambooToggle h2, .woolToggle h2{
+	font-weight: 400i;
+	font-size: 50px;
+	padding-top: 10px;
+}
+
+.cottonSlide p, .silkSlide p, .bambooSlide p, .woolSlide p {
+	font-family: 'Arvo', serif;
+	font-weight: 700i;
+	font-size: 30px;
+	padding: 15px 18px;
+	padding-bottom: 10px;*/
+	margin: auto;
+	display: block;
+}
+
+.cottonSlide, .silkSlide, .bambooSlide, .woolSlide {
+	background-color: gray;
+	display: none;
+	text-align: center;
+  	overflow: hidden;
+  	width: 100%;
+}
+
+.woolToggle {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Two_lambs_rubber_ring_tail_docking.jpg/1280px-Two_lambs_rubber_ring_tail_docking.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: center-center;
+	color: #DB7093;
+	width: 100%;
+}
+
+
+.cottonToggle {
+	background-image: url(https://financialtribune.com/sites/default/files/field/image/17january/zs-cotton_167-ab.jpg);
+	height: 300px;
+	color: #D8BFD8;
+	background-size: cover;
+	background-repeat: none;
+	width: 100%;
+}
+
+.silkToggle {
+	background-image: url(https://i.pinimg.com/736x/88/1f/2a/881f2acc4d32db4d622cf444d9ec9648--moth-google-images.jpg);
+	height: 300px;
+	color: #2F4F4F;
+	background-size: cover;
+	background-repeat: none;
+	width: 100%;
+}
+
+.bambooToggle {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL8nzyDIDM4Grs1zL_rTqPXjqBZ2-vkz_Zt5sRt6GhHjSzmEW7);
+	height: 300px;
+	background-size: 250px;
+	background-size: cover;
+	background-repeat: none;
+	color: #FFDAB9;
+	width: 100%;
+}
+
+.cottonSlide {
+	background-color: #F08080;
+	color: #D8BFD8;
+}
+
+.woolSlide {
+	background-color: #B0E0E6;
+	color: #DB7093;
+}
+
+.silkSlide {
+	background-color: #F0F8FF;
+	color: #2F4F4F;
+}
+
+.bambooSlide {
+	background-color: #B0C4DE;
+	color: #FFDAB9;
+}
+
+#fabricColumns {
+	background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/black-scattered-round-confetti-pattern-angel-pink-background-tina-lavoie.jpg);
+	background-repeat: none;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 65px;
+	min-height: 750px;
+}
+
+
+/***************************************/
+
+
+
+
+
+/*****SHOPPING SLIDER***********/
+
+
+.gridRow {
+	overflow: hidden;
+	margin-top: none;
+	width: 100%;
+	height: auto;
+	background-color: #D8BFD8;
+	font-family: 'Poiret One', cursive;
+}
+
+.gridHeader {
+	display: inline-block;
+	width: 100%;
+	margin: none;
+}
+
+.gridHeader h1 {
+	padding-top: 30px;
+}
+
+.boxClass{
+	display: inline-block;
+	border: 1px solid black;
+	max-width: 262px;
+	min-height: 250px;
+	margin-top: 35px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+
+/********BOX LINKS***********//
+
+	#box1 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic7.png);
+	}
+
+	#box2 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic10.png);
+	}
+
+	#box3 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic3.png);
+	}
+
+	#box4 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic2.png);
+	}
+
+	#box5 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic1.png)
+	}
+
+	#box6 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic5.png);
+	}
+
+	#box7 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic8.png);
+		background-repeat: none;
+	}
+
+	#box8{
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic6.png);
+	}
+
+	#box9 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic9.png);
+	}
+
+	#box10 {
+		background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/slickpic4.png);
+	}
+
+
+.gridRow .slick-prev {
+  left: 10px;
+}
+
+.gridRow .slick-next {
+  right: 10px;
+}
+
+
+#overlay {
+    position: relative; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    max-width: 260px;
+	min-height: 248px;
+    /*width: 100%; /* Full width (cover the whole page) */
+    /*height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: /*rgba(0,0,0,0.5)*/; /* Black background with opacity */
+    z-index: 10; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.boxButton {
+	font-family: Muli;
+	display: inline-block;
+	text-align: center;
+	margin-top: 90%;
+	color: #E0FFFF;
+	background-color: #BC8F8F;
+}
+
+
+/**********************ABOUT*****************/
+
+
+#about {
+	font-family: Muli;
+	height: auto;
+	background-color: #8FBC8F;
+	color: white;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
 }
 
 #about h2 {
@@ -214,6 +393,43 @@ footer {
   	font-weight: 300;
   	padding-bottom: 20px;
 }
+
+#facts {
+	background-image
+	font-family: 'Poiret One', cursive;
+	height: auto;
+	background-image: url(file:///Users/kevinbrinkley/Sites/KateBrinkley/Website/images/download.png);
+	background-color:rgba(0, 0, 0, 0.5);
+	background-size: cover;
+  	opacity: 0.7;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#facts p {
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 22px;
+	margin: auto;
+  	display: block;
+  	text-align: center;
+  	width: 75%;
+  	color: #191970;
+  	font-weight: 300;
+  	padding-bottom: 20px;
+  	padding-top: 20px;
+  	opacity: 1;
+}
+
+#facts span {
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	color: #483D8B;
+}
+
+/*************SIGNUP & FOOTER*************/
 
 #signup {
 	margin: auto;

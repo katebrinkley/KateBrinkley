@@ -26,7 +26,7 @@ header nav ul li {
 	font-size: 22px;
 }
 
-.toggleNav {
+nav {
 	overflow: hidden;
 	display: inline;
 }
@@ -110,6 +110,8 @@ hr {
 	font-family: 'Poiret One', cursive;
 }
 
+/************FABRIC COLUMNS************/
+
 
 .test {
 	margin: auto;
@@ -169,8 +171,7 @@ hr {
 	font-family: 'Arvo', serif;
 	font-weight: 700i;
 	font-size: 30px;
-	padding-left: 15px;
-	padding-right: 15px;/*
+	padding: 15px 18px;
 	padding-bottom: 10px;*/
 	margin: auto;
 	display: block;
@@ -220,6 +221,26 @@ hr {
 	background-repeat: none;
 	color: #FFDAB9;
 	width: 22.5%;
+}
+
+.cottonSlide {
+	background-color: #F08080;
+	color: #D8BFD8;
+}
+
+.woolSlide {
+	background-color: #B0E0E6;
+	color: #DB7093;
+}
+
+.silkSlide {
+	background-color: #F0F8FF;
+	color: #2F4F4F;
+}
+
+.bambooSlide {
+	background-color: #B0C4DE;
+	color: #FFDAB9;
 }
 
 #fabricColumns {

@@ -2,16 +2,18 @@ $(document).ready(function(){
 
 //SMOOTH SCROLL FOR NAV BAR (DESKTOP)
 
-	$("nav.toggleNav a").click(function(e) {
-		var id = $(this).attr('href');
 
-	    $('html, body').animate({
-	        scrollTop: $(id).offset().top
-	    }, 200);
 
-	    e.preventDefault();
-	});
-});
+$('nav.toggleNav a').click(function(e){
+  		var id = $(this).attr('href'); //home
+  		var headerHeight = $('div').outerHeight();
+
+  		$('html, body').animate({
+	  		scrollTop: $(id).offset().top
+        }, 2000);
+
+        e.preventDefault();
+    });
 
 
 //MENU TOGGLE (ON MOBILE)
@@ -40,6 +42,16 @@ $('.woolToggle').click(function(){
 	$('.woolSlide').slideToggle('slow');
 });
 
+//OVERLAY FUNCTIONS
+
+function on(hover) {
+    document.getElementsByClassName("overlay").style.display = "block";
+}
+
+function off(hover) {
+    document.getElementsByClassName("overlay").style.display = "none";
+}
+
 
 
 // SLICK SLIDER 
@@ -53,46 +65,42 @@ $('.boxes').slick({
 
 });
 
-prevArrow: $('.prev')
-nextArrow: $('.next')
+$('.responsive').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
 
-function on() {
-    document.getElementById("overlay").style.display = "block";
-}
-
-function off() {
-    document.getElementById("overlay").style.display = "none";
-}
+})
 
 	
-
-
-// 	var images = [
-// 		'images/outfit1.jpg',
-// 		'images/outfit2.jpg',
-// 		'images/outfit3.jpg',
-// 	];
-
-// 	i = 0;
-
-// 	$('#prevButton').click(function(){
-// 		i--;
-
-// 		if(i < 0) {
-// 			i = images.length - 1;
-// 		}
-// console.log(i);
-// 		$('#image').attr('src',images[i]);
-// 	});
-
-// 	$("#nextButton").click(function(){
-// 		i++;
-
-// 		if(i >= images.length) {
-// 			i = 0;
-// 		}
-// 		console.log(i);
-// 		$("#image").attr("src", images[i]);
-// 	});
-
-// });
